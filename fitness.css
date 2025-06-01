@@ -1,0 +1,51 @@
+html {
+    background: rgb(151, 151, 151);
+    font-family: Verdana, Geneva, sans-serif;
+    height: 100%;
+ }
+ 
+ body {
+    background-color: white;
+    box-shadow: rgb(51, 51, 51) 10px 0px 40px, rgb(51, 51, 51) -10px 0px 40px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    min-height: 100%;   
+    margin: 0px auto;
+    min-width: 400px;
+    max-width: 1024px;   
+    width: 100%; 
+ }
+ 
+ ul, ol {
+    list-style: none;
+ }
+ 
+ nav ul {
+    list-style: none;
+    list-style-image: none;
+ }
+ 
+ nav a {
+    text-decoration: none;
+ }
+ 
+ /* Header styles */
+ 
+ header {
+    background: rgb(1, 84, 74);
+    display: flex; align-items: center;
+    color: white;
+ }
+ 
+
+  /* Footer styles */   
+ 
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }

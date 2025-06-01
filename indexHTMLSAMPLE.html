@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wildcat Fitness Center Events Calendar</title>
+<link rel="stylesheet" href="styles/fitness.css">
+<link rel="stylesheet" href="styles/calendar.css">
+</head>
+</head>
+<body>
+<header>
+  <img src="images/wildcatfitness.jpeg" alt="Wildcat Fitness Center Logo" id="logo">
+  <h1>Wildcat Fitness Center Events Calendar</h1>
+</header>
+<main>
+  <div id="calendar">
+    <!-- The event calendar will be inserted here with JavaScript -->
+    <table id="calendar_table">
+      <caption>May 2024</caption>
+      <thead>
+        <tr class="calendar_weekdays">
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Week 1 -->
+        <tr>
+          <td></td> <!-- Previous month's last days -->
+          <td class="calendar_dates">1<br /><a href="#" >Tone & Define</a> <br />6AM-7AM</td>
+          <td class="calendar_dates">2</td>
+          <td class="calendar_dates">3<br /><a href="#" >Spinning to the 80s</a> <br />9AM-10AM</td></td>
+          <td class="calendar_dates">4</td>
+          <td class="calendar_dates">5</td>
+          <td class="calendar_dates">6</td>
+        </tr>
+        <!-- Week 2 -->
+        <tr>
+          <td class="calendar_dates">7</td>
+          <td class="calendar_dates">8</td>
+          <td class="calendar_dates">9</td>
+          <td class="calendar_dates">10<br /><a href="#" >Spinning to the 80s</a> <br />9AM-10AM</td></td>
+          <td class="calendar_dates">11<br /><a href="#" >Dead Weights for Dummies</a> <br />1PM-3PM</td></td>
+          <td class="calendar_dates">12</td>
+          <td class="calendar_dates">13</td>
+        </tr>
+        <!-- Week 3 -->
+        <tr>
+          <td class="calendar_dates">14<br /><a href="#">Open Swim</a> <br />All Day</td></td></td>
+          <td class="calendar_dates">15</td>
+          <td class="calendar_dates">16<br /><a href="#" >Dead Weights for Dummies</a> <br />1PM-3PM</td></td>
+          <td class="calendar_dates">17</td>
+          <td class="calendar_dates">18</td>
+          <td class="calendar_dates">19</td>
+          <td class="calendar_dates">20<br /><a href="#">Open Swim</a> <br />All Day</td></td>
+        </tr>
+        <!-- Week 4 -->
+        <tr>
+          <td class="calendar_dates">21</td>
+          <td class="calendar_dates">22<br /><a href="#">Open Swim</a> <br />All Day</td></td></td>
+          <td class="calendar_dates">23</td>
+          <td class="calendar_dates">24</td>
+          <td class="calendar_dates">25</td>
+          <td class="calendar_dates" id="calendar_today">26<br /><a href="#">Open Swim</a> <br />All Day</td></td></td>
+          <td class="calendar_dates">27</td>
+        </tr>
+        <!-- Week 5 -->
+        <tr>
+          <td class="calendar_dates">28</td>
+          <td class="calendar_dates">29</td>
+          <td class="calendar_dates">30</td>
+          <td class="calendar_dates">31</td> <!-- Current month's last day -->
+          <td></td> <!-- Next month's first days -->
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+<footer>
+  <p>© 2024 Weber State CS FLEX</p>
+</footer>
+</body>
+</html>
+
